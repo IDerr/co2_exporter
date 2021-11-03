@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  co2_exporter:
+    container_name: co2_exporter
+    image: "iderr/co2_exporter:v0.0.1"
+    ports:
+      - "9143:9143"
